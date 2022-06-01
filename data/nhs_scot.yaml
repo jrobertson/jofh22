@@ -1,0 +1,37 @@
+---
+:title:
+- :select
+- //div[select/@name="cmdTitle"]
+:first_name:
+- :input
+- //input[@name="txtForename"]
+:last_name:
+- :input
+- //input[@name="txtSurname"]
+:postcode:
+- :input
+- //input[@name="txtHomePostcode"]
+:home_telephone:
+- :input
+- //input[@name="txtHomeTelephone"]
+:utamr:
+- :click
+- //input[@name="recoveryOption"]
+:email_address:
+- :input
+- //input[@name="txtHomeEmail"]
+:password:
+- :input
+- //input[@name="txtPassword"]
+:retype_password:
+- :input
+- //input[@name="txtPassword2"]
+:ayceb:
+- :select
+- //div[select/@name="cmbEmployed"]
+:ictih:
+- :click
+- //input[@name="Termscheckbox"]
+:register:
+- :click
+- //button[@type="submit"]
